@@ -30,5 +30,28 @@
 //     console.log(mark + "fail");
 // }
 // });
+// let fruits = ["apple,"banana];
+// let newlength = fruits.push("cherry");
+//pop
+// let fruits = ['apple','banana','cherry]
+// Q1. reverse the Array using Push and pop method
+let fruit =['apple', 'banana', 'cherry']
+fruit.pop()
+fruit.pop()
+fruit.pop()
+fruit.push('cherry')
+fruit.push('banana')
+fruit.push('apple')
 
+console.log(fruit)
 
+// Q2 remove all negative Number forme an Array
+let arr=[5,-3,16,-11,-7,8]
+let result=[]
+
+for(let i=0;i<arr.length;i++)
+    if(arr[i]>=0){
+        result.push(arr[i]);
+    }
+
+ console.log(result)
